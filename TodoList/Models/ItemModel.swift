@@ -7,8 +7,10 @@
 
 import Foundation
 
+//Codable -> converts the model into and out of the data
+//           it can change the model into JSON and back 
 
-struct ItemModel: Identifiable {
+struct ItemModel: Identifiable, Codable {
     let title: String
     let isCompleted: Bool
     let id: String
