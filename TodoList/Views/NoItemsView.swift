@@ -37,6 +37,7 @@ struct NoItemsView: View {
                 
                 
             }
+            .frame(maxWidth: 400)
             .padding(40)
             .onAppear {
                 addAnimation()
